@@ -1,0 +1,116 @@
+@media (max-width:768px) {
+    body {
+        overflow-x: hidden;
+        background-color: #fff;
+        background-image: url("../img/topbg-mobile.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+     ::-webkit-scrollbar {
+        display: none;
+    }
+    .topbg {
+        display: none;
+    }
+    .myimg {
+        width: 250%;
+        display: block;
+        margin-left: 6em;
+        margin-top: -10em;
+        position: absolute;
+    }
+    .headname {
+        margin-top: 22em;
+        font-size: 16px;
+    }
+    .tagline {
+        font-size: 14px;
+    }
+    .s1 {
+        font-size: 8px;
+    }
+    .head1 {
+        display: none;
+    }
+    .about,
+    .edu,
+    .skills {
+        height: 180px;
+        margin-top: 15px;
+    }
+    .c1,
+    .c2,
+    .c3 {
+        font-size: 18px;
+    }
+    .a1,
+    .a2,
+    .a3 {
+        width: 90%;
+        font-size: 12px;
+    }
+    .projects {
+        height: 14em;
+    }
+    .q1 {
+        font-size: 16px;
+        width: 80%;
+        text-align: center;
+        margin-left: 26px;
+    }
+    .footer {
+        height: 18em;
+    }
+    .left {
+        margin-left: 1em;
+        margin-right: 1em;
+        position: absolute;
+    }
+    .right {
+        margin-top: 7em;
+        margin-left: 2em;
+        margin-right: .5em;
+    }
+    .fa {
+        display: inline;
+        float: left;
+    }
+    .ct1,
+    .ct2 {
+        font-size: 16px;
+    }
+    .ct1 {
+        margin-top: -2em;
+        text-align: center;
+    }
+    .ct2 {
+        display: block;
+        margin-left: 6em;
+    }
+    .social-btns {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn {
+        font-size: 16px;
+        display: inline-flex;
+        flex-direction: row;
+        margin: 5px;
+        margin-left: 2em;
+    }
+    .email {
+        margin-top: 1em;
+        margin-left: 1em;
+        font-size: 12px;
+        display: block;
+    }
+    .sp1 {
+        font-size: 14px;
+    }
+    .cp1 {
+        font-size: 10px;
+        margin-top: 19em;
+    }
+}

@@ -1,0 +1,94 @@
+@media (max-width:768px){
+  /******predefine*****/
+  .profile,.about,.details, .ach{
+    color: rgb(0, 204, 170);
+    text-align: center;
+    padding: 20px;
+    
+  }
+  .profile-a, .about-a{
+    color: rgb(46, 46, 46);
+     font-size: 16px;
+     text-align: center;
+     
+  }
+  .bold{
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+  .square_btn{
+    margin-top: 2em;
+    margin-left: 8em;
+    display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+
+    background-image: -webkit-linear-gradient(45deg, #13f7f7 0%, #331509 100%);
+    background-image: linear-gradient(45deg, #07fff3 0%, #022535 100%);
+    transition: .4s;
+}
+
+.square_btn:hover {
+  text-decoration: none;
+    background-image: -webkit-linear-gradient(45deg, #82cdff 0%, #f76a35 100%);
+    background-image: linear-gradient(45deg, #20a6ff 0%, #f76a35 100%);
+}
+  
+   .name {
+     font-family: 'Josefin+Sans',sans-serif;
+     color: white;
+     font-size: 30px;
+     display: block;
+    text-align: center;
+     margin-top: 10em;
+     text-shadow: 2px 2px 2px rgb(51, 50, 50) ;
+   }
+   .resume{
+     font-size: 25px;
+     text-align: center;
+     color: white;
+     font-weight: 300;
+     margin-top: 0.7em;
+   }
+   hr{
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 1em;
+    
+   }
+   /*******section2********/
+   #main{
+     background-color: white;
+     height: 10em;
+     width: 100%;
+     margin-top: 14em;
+   }
+   img{
+     border-radius: 50%;
+    margin-left: 85px;
+   }
+   .profile{
+     padding: 60px;
+   }
+   .profile-a{
+     margin-top: -2em;
+   }
+   .about-a{
+     margin-left: 25px;
+     width: 80%;
+     margin-top: 1em;
+   }
+   #exp{
+     background-color: rgb(255, 236, 199);
+     height: 20em;
+     
+   }
+   
+   
+}
